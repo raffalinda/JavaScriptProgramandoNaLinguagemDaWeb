@@ -20,4 +20,13 @@ if (peso < = 0 || peso >=100){
     tdImc.textContent = "Peso invalido";
 }
 
-if (altura <=)
+if (altura <= 0 || alura >= 3.00){
+   console.log("Alura invalida");
+   aluraEhvalida = "Alura invalida";
+   tdImc.textContent = Imc;
+}
+
+if (pesoEhvalido && aluraEhValida){
+    var imc = peso / (alura * alura);
+    tdImc.textContent = imc;
+}
